@@ -26,14 +26,19 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+ - forEach does the same thing as a for loop except is doesn't create its own array. Map creates an array from the parameters it gets.
 
 2. Explain the difference between a callback and a higher order function.
+ - the higher order function is what a callback is calling back. instructions are declared as part of the higher order function and then passed through the callback into a new function so as to use the data from the higher order function without having to write it all out again.
 
 3. What is closure?
+ - closure is a proper function. Everything the function 'remembers'. 
 
 4. Describe the four rules of the 'this' keyword.
+ - 
 
 5. Why do we need super() in an extended class?
+ - super is a keyword that refers back to the parent of whatever child class is extending it. without using super, the extended class won't accept the parent class' variables
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -69,7 +74,7 @@ This challenge takes a look at closures as well as scope.
 #### Task C: Prototypes
 
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+* [X] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 #### Task D: Classes
 
@@ -86,8 +91,8 @@ There are a few stretch problems found throughout the files, don't work on them 
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete after receiving your pull-request
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [X] Add your team lead as a reviewer on the pull-request
+- [X] Your team lead will count the project as complete after receiving your pull-request
 
 
