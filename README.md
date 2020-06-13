@@ -35,7 +35,10 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
  - closure is a proper function. Everything the function 'remembers'. 
 
 4. Describe the four rules of the 'this' keyword.
- - 
+ - Global Object Binding makes this cover the entire scope. Shouldn't be used.
+ - Impicit Binding calls directly to a previously defined function
+ - New Binding refers to something created to be used by a constructor
+ - Explicit Binding is used with .call and .apply to alter the values that those methods return.
 
 5. Why do we need super() in an extended class?
  - super is a keyword that refers back to the parent of whatever child class is extending it. without using super, the extended class won't accept the parent class' variables
@@ -69,7 +72,7 @@ Test your knowledge of advanced array methods and callbacks.
 #### Task B: Closure
 
 This challenge takes a look at closures as well as scope. 
-* [ ] Use the [closure.js](challenges/closure.js) link to get started. Read the instructions carefully!
+* [X] Use the [closure.js](challenges/closure.js) link to get started. Read the instructions carefully!
 
 #### Task C: Prototypes
 
